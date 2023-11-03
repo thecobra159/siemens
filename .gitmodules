@@ -1,0 +1,6 @@
+[submodule "siemens-test-back"]
+	path = siemens-test-back
+	url = https://github.com/thecobra159/siemens-test-back
+[submodule "siemens-test-front"]
+	path = siemens-test-front
+	url = https://github.com/thecobra159/siemens-test-front
