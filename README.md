@@ -2,6 +2,7 @@
 Siemens Code Challenge API
 
 - [Introdutcion](#introduction)
+- [Update Submodules](#update-submodules)
 - [Docker Compose](#docker-compose)
   - [Running Docker Compose](#running-docker-compose)
   - [Stopping Docker Compose](#stopping-docker-compose)
@@ -14,6 +15,13 @@ For Front-End the technology used was Angular.
 For Back-End the technology used was NodeJs.
 
 For Database the technology used was MongoDB.
+
+### Update Submodules
+After cloning this repo, use the command bellow to update the git submodules:
+
+```bash
+$ git submodules update --remote
+```
     
 ### Docker Compose
 
@@ -40,9 +48,6 @@ DB_URI=mongodb://mongodb:27017/db_siemens_test
 
 # this example works for mongo service
 DB_URI=mongodb+srv://<user>:<password>@<mongo_service>/<table>
-
-# connect front-end to api
-api=http://localhost:3003
 ```
 
 Then in the root run:

@@ -23,8 +23,6 @@ services:
     build:
       context: ./siemens-test-front/
       dockerfile: ./dockerfile
-    env_file:
-      - ./.env
     ports:
       - 80:80
 
