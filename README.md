@@ -79,4 +79,4 @@ $ docker-compose down
 
 The API Documentation can be accessed through the link:
 
-`http:localhost:3003/api/`
+`http://localhost:3003/api/`
