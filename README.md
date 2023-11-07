@@ -6,8 +6,10 @@ Siemens Code Challenge API
 - [Docker Compose](#docker-compose)
   - [Running Docker Compose](#running-docker-compose)
   - [Stopping Docker Compose](#stopping-docker-compose)
+- [Swagger](#swagger)
 
 ### Introduction
+
 This code challenge has the objective creating an API to manage equipments and it's points, it allows you to read, create, update and delete equipments and points.
 
 For Front-End the technology used was Angular.
@@ -17,10 +19,12 @@ For Back-End the technology used was NodeJs.
 For Database the technology used was MongoDB.
 
 ### Update Submodules
+
 After cloning this repo, use the command bellow to update the git submodules:
 
 ```bash
-$ git submodules update --remote
+$ git submodule update --init --recursive
+
 ```
     
 ### Docker Compose
@@ -70,3 +74,9 @@ After stopping all dockers you need to shutdown them with:
 ```bash
 $ docker-compose down
 ```
+
+### Swagger
+
+The API Documentation can be accessed through the link:
+
+`http:localhost:3003/api/`
